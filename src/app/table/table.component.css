@@ -1,0 +1,4 @@
+/* table.component.css */
+tr.highlighted {
+  background-color: yellow; /* Change to desired highlight color */
+}

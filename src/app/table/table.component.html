@@ -1,0 +1,11 @@
+<table>
+  <tr
+    *ngFor="let row of data; let i = index"
+    [class.highlighted]="i === selectedRowIndex"
+    (click)="openPopup(i)"
+  >
+    <td>{{ row.id }}</td>
+    <td>{{ row.name }}</td>
+    <td>{{ row.age }}</td>
+  </tr>
+</table>
